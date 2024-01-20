@@ -1,4 +1,3 @@
-import sqlalchemy
 import pandas as pd  # intentionally ignore to_sql method in pandas
 from sqlalchemy import create_engine, inspect
 from sqlalchemy import Table, Column, MetaData, Integer, \
